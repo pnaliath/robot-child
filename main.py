@@ -1,9 +1,13 @@
 from kivy.app import App
 from kivy.uix.label import Label
+from app import config
 
-class MyApp(App):
+
+class RobotChild(App):
     def build(self):
-        return Label(text="Hello Papa, robot-child is ready!")
+        # For now, just a hello screen
+        return Label(text="Hello Papa, I am ready!")
+
 
 if __name__ == "__main__":
-    MyApp().run()
+    RobotChild().run()
