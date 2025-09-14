@@ -1,7 +1,9 @@
+# modules/voice.py
+from modules import utils
+
 def listen():
-    # placeholder for speech recognition
-    return "I heard you"
+    utils.log("Listening (mock)...")
+    return None  # Replace with real speech recognition later
 
 def respond(text):
-    # placeholder for TTS
-    print(f"Robot says: {text}")
+    utils.log(f"Robot says: {text}")
